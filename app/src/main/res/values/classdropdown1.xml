@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="classnames">
+        <item>Class 1</item>
+        <item>Class 2</item>
+    </array>
+</resources>

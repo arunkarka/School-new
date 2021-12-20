@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".ContactUsActivity">
+	
+	<com.google.android.material.card.MaterialCardView
+		android:id="@+id/school_card"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="8dp">
+		
+		
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="16dp">
+			
+			<!-- Title, secondary and supporting text -->
+			<TextView
+				android:id="@+id/school_title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?attr/textAppearanceHeadline6" />
+			
+			<TextView
+				android:id="@+id/school_address"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="16dp"
+				android:textSize="16sp"
+				android:textAppearance="?attr/textAppearanceBody2"
+				android:textColor="?android:attr/textColorSecondary"
+				android:drawableStart="@drawable/baseline_place_black_24dp"
+				android:drawablePadding="4dp" />
+		
+		</LinearLayout>
+	
+	
+	
+	
+	</com.google.android.material.card.MaterialCardView>
+	
+	<com.google.android.material.card.MaterialCardView
+		android:id="@+id/principal_card"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="8dp">
+		
+		
+		
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="16dp">
+			
+			<!-- Title, secondary and supporting text -->
+			<TextView
+				android:id="@+id/hm_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?attr/textAppearanceHeadline6" />
+			
+			<TextView
+				android:id="@+id/principal_number"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="6dp"
+				android:textAppearance="?attr/textAppearanceBody2"
+				android:textColor="?android:attr/textColorSecondary"
+				android:drawableStart="@drawable/baseline_call_black_24dp"
+				android:textSize="16sp"
+				android:drawablePadding="8dp" />
+			
+			<TextView
+				android:id="@+id/principal_email"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="6dp"
+				android:textAppearance="?attr/textAppearanceBody2"
+				android:textColor="?android:attr/textColorSecondary"
+				android:drawableStart="@drawable/baseline_email_black_24dp"
+				android:textSize="16sp"
+				android:drawablePadding="8dp" />
+		
+		</LinearLayout>
+	
+	
+	</com.google.android.material.card.MaterialCardView>
+	
+	<com.google.android.material.card.MaterialCardView
+		android:id="@+id/card"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="8dp">
+		
+		
+		
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="16dp">
+			
+			<!-- Title, secondary and supporting text -->
+			<TextView
+				android:id="@+id/oh_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?attr/textAppearanceHeadline6" />
+			
+			
+			
+			<TextView
+				android:id="@+id/oh_number"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="6dp"
+				android:textAppearance="?attr/textAppearanceBody2"
+				android:textColor="?android:attr/textColorSecondary"
+				android:drawableStart="@drawable/baseline_local_phone_black_24dp"
+				android:textSize="16sp"
+				android:drawablePadding="8dp" />
+			
+			<TextView
+				android:id="@+id/oh_email"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="6dp"
+				android:textAppearance="?attr/textAppearanceBody2"
+				android:textColor="?android:attr/textColorSecondary"
+				android:drawableStart="@drawable/baseline_email_black_24dp"
+				android:textSize="16sp"
+				android:drawablePadding="8dp" />
+		</LinearLayout>
+	
+	
+	</com.google.android.material.card.MaterialCardView>
+	<com.github.ybq.android.spinkit.SpinKitView
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:id="@+id/spin_kit"
+		style="@style/SpinKitView.FadingCircle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		app:SpinKit_Color="@color/colorAccent" />
+</LinearLayout>

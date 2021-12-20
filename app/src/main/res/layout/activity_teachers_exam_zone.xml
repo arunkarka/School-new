@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TeachersExamZoneActivity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/textInputLayout2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:elevation="10dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/examlink"
+            android:layout_width="350dp"
+            android:elevation="20dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+
+            android:layout_marginBottom="10dp"
+            android:background="#e1f5fe"
+            android:hint="@string/enter_exam_link_here" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:hint="@string/exam_description">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/exam_desc"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+            android:elevation="20dp"
+            android:background="#e1f5fe"
+
+            android:layout_marginBottom="3dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
+        android:textSize="15sp"
+        android:text="@string/subject"
+        android:layout_marginStart="30dp"
+        android:textAlignment="gravity"
+        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+    <Spinner
+        android:id="@+id/spinner_subject"
+        android:layout_width="350dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:entries="@array/sub"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+
+        android:layout_marginTop="3dp"
+        android:paddingBottom="6dp"
+        android:elevation="30dp"
+        android:text="@string/submit" />
+
+
+
+
+
+
+
+</LinearLayout>

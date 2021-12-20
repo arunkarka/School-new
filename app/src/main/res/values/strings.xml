@@ -1,0 +1,126 @@
+<resources>
+	
+	//................Generic strings.........
+	<string name="app_name">School Dosth</string>
+	
+	<string name="title_activity_home">HomeActivity</string>
+	
+	
+	<string name="action_settings">Settings</string>
+	
+	<string name="menu_home">Home</string>
+	
+	<string name="more">More</string>
+	<string name="select_a_section">Select a Section</string>
+	
+	<string name="Check_in_out_Logo">CheckIn_Checkout_Logo</string>
+	<string name="password">Password</string>
+	<string name="email">Email</string>
+	<string name="login">LOGIN</string>
+	
+	<string name="logout">Logout</string>
+	<string name="hm_corner">HM Corner</string>
+	<string name="applogo">SCHOOL MATE APP LOGO</string>
+	<string name="apptitle">SCHOOL MATE</string>
+	
+	// .....................................
+	
+	
+	// ..........checkin and checkout strings......
+	<string name="extended_fab_label">Check In</string>
+	
+	<string name="extended_fab_content_desc">Check In Desc</string>
+	<string name="checkin_dialog_title">Check In Confirmation</string>
+	<string name="checkout_dialog_title">Check Out Confirmation</string>
+	<string name="supporting_text_checkin">"Do you want to Check In to "</string>
+	<string name="supporting_text_checkout">"Do you want to Check Out from "</string>
+	<string name="checkout_display_text">"You are currently checked into "</string>
+	<string name="cancel">Cancel</string>
+	<string name="yes">Yes</string>
+	
+	
+	<string name="no">No</string>
+	<string name="check_in_screen_title">Session Check In</string>
+	<string name="select_classroom_text">Select a Class Room</string>
+	<string name="report">Report Card</string>
+	<string name="contact">Contact Us</string>
+	<string name="submit">Submit</string>
+	<string name="select_subject">Select Subject</string>
+	<string name="enter_exam_link_here">Enter Exam Link Here</string>
+	<string name="exam_description">Exam Description</string>
+	<string name="select_a_class">Select a Class</string>
+	<string name="exam_corner">Exam Corner</string>
+	<!-- TODO: Remove or change this placeholder text -->
+	<string name="hello_blank_fragment">Hello blank fragment</string>
+	<string name="signUp">SIGN UP</string>
+	<string name="first_name">First Name</string>
+	<string name="teacher_registration">TEACHER REGISTRATION</string>
+	<string name="last_name">Last Name</string>
+	<string name="contact_number">Contact Number</string>
+	<string name="select_a_subject">Select a Subject</string>
+	<string name="student_registration">STUDENT REGISTRATION</string>
+	<string name="roll_number">Roll Number</string>
+	<string name="select_class_and_section">Select Class and Section</string>
+	<string name="subject">Subject</string>
+	<string name="faculty">FACULTY</string>
+	<string name="subject1">Subject1</string>
+	<string name="parent_registration">PARENT REGISTRATION</string>
+	<string name="don_t_have_and_account">Don\'t have and account?</string>
+	<string name="create_account">Create Account</string>
+	<string name="please_enter_the_access_code">Please enter the access code</string>
+	<string name="access_code">Access Code</string>
+	<string name="next">Next</string>
+	<string name="already_a_member">Already a member?</string>
+	
+	<string name="contact_info">Contact Info</string>
+	<string name="xyz_gmail_com">xyz@gmail.com</string>
+	<string name="take_the_test">Take the test</string>
+	
+	<string name="zphs_school">ZPHS Indira Nagar</string>
+	<string name="checkin_out">Check In/Out</string>
+	<string name="exam">Exam</string>
+	<string name="results">Results</string>
+	<string name="contact_us">Contact Us</string>
+	<string name="contact_developer">Contact Developer</string>
+	<string name="developer_email">ringpisolve@gmail.com</string>
+	
+	<string name="session_login">Session Login</string>
+	<string name="textview">TextView</string>
+	<string name="check_out">Check Out</string>
+	<string name="check_in">Check In</string>
+	<string name="default_class_name">NA</string>
+	<string name="default_faculty_name">NA</string>
+	<string name="class1">CLASS</string>
+	<string name="class2">Class1</string>
+	<string name="curricular_activities">Curricular Activities</string>
+	<string name="test1">FA 1</string>
+	<string name="test2">FA 2</string>
+	<string name="test3">FA 3</string>
+	<string name="test4">FA 4</string>
+	<string name="co_curricular_activities">Co-curricular Activities</string>
+	<string name="sa_1">SA 1</string>
+	<string name="sa_2">SA 2</string>
+	<string name="grade">Grade</string>
+	<!-- TODO: Remove or change this placeholder text -->
+	
+	// .....................................
+	
+	
+	<string name="marks">Marks</string>
+	<string name="maths">Maths</string>
+	<string name="_1">1</string>
+	<string name="_2">2</string>
+	<string name="physics">Physics</string>
+	<string name="_3">3</string>
+	<string name="social">Social</string>
+	<string name="_4">4</string>
+	<string name="english">English</string>
+	<string name="_5">5</string>
+	<string name="first_language">Telugu</string>
+	<string name="_6">6</string>
+	<string name="second_language">Hindi</string>
+	
+	//................................................
+
+
+</resources>

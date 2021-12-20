@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:fitsSystemWindows="true"
+	tools:context=".TeacherRegistration"
+	tools:visibility="visible">
+	
+	
+	<TextView
+		android:id="@+id/textView"
+		android:text="@string/teacher_registration"
+		android:textAlignment="center"
+		android:textSize="25sp"
+		android:textStyle="bold"
+		android:layout_marginTop="30dp"
+		android:layout_marginBottom="30dp"
+		android:layout_gravity="center"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	
+	<com.google.android.material.textfield.TextInputLayout
+		style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+		android:layout_width="340dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginBottom="10sp"
+		android:hint="@string/first_name"
+		app:boxBackgroundMode="filled"
+		app:boxStrokeColor="#81d4fa"
+		app:boxStrokeWidth="2sp"
+		app:endIconMode="clear_text">
+		
+		<com.google.android.material.textfield.TextInputEditText
+			android:id="@+id/teacherFirstName"
+			android:maxLines="1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:background="#fff"
+			
+			/>
+	</com.google.android.material.textfield.TextInputLayout>
+	
+	<com.google.android.material.textfield.TextInputLayout
+		style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+		android:layout_width="340dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginBottom="10sp"
+		android:hint="@string/last_name"
+		app:boxBackgroundMode="filled"
+		app:boxStrokeColor="#81d4fa"
+		app:boxStrokeWidth="2sp"
+		app:endIconMode="clear_text">
+		<com.google.android.material.textfield.TextInputEditText
+			android:id="@+id/teacherLastName"
+			android:maxLines="1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:background="#fff" />
+	</com.google.android.material.textfield.TextInputLayout>
+	
+	<com.google.android.material.textfield.TextInputLayout
+		style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+		android:layout_width="340dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginBottom="10sp"
+		android:hint="@string/contact_number"
+		app:boxBackgroundMode="filled"
+		app:boxStrokeColor="#81d4fa"
+		app:boxStrokeWidth="2sp"
+		app:endIconMode="clear_text">
+		<com.google.android.material.textfield.TextInputEditText
+			android:id="@+id/teacherNum"
+			android:maxLines="1"
+			android:maxLength="10"
+			android:inputType="number"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:background="#fff" />
+	</com.google.android.material.textfield.TextInputLayout>
+	
+	
+	<TextView
+		android:id="@+id/textView6"
+		android:text="@string/select_a_subject"
+		android:textColor="#000"
+		android:layout_marginStart="40dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	
+	<Spinner
+		android:id="@+id/spinner_subject"
+		style="@style/Widget.AppCompat.Spinner.DropDown"
+		android:layout_width="340dp"
+		android:layout_height="60dp"
+		android:layout_gravity="center"
+		android:layout_marginBottom="10sp"
+		android:elevation="8dp"
+		android:background="@drawable/background"
+		android:layout_marginTop="5dp"
+		android:textAlignment="center" />
+	
+	<com.google.android.material.textfield.TextInputLayout
+		
+		style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+		android:layout_width="340sp"
+		android:layout_gravity="center"
+		android:layout_height="wrap_content"
+		app:boxBackgroundMode="filled"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginBottom="10sp"
+		app:endIconMode="clear_text"
+		app:boxStrokeColor="#81d4fa"
+		app:boxStrokeWidth="2sp"
+		android:hint="@string/email">
+		
+		<com.google.android.material.textfield.TextInputEditText
+			android:id="@+id/teacherEmail"
+			android:maxLines="1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_gravity="center"
+			android:background="#fff"
+			android:inputType="textEmailAddress"
+			/>
+	</com.google.android.material.textfield.TextInputLayout>
+	
+	
+	<com.google.android.material.textfield.TextInputLayout
+		style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+		android:layout_width="340sp"
+		android:layout_gravity="center"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginBottom="15sp"
+		app:boxBackgroundMode="filled"
+		android:layout_marginTop="3dp"
+		app:boxStrokeColor="#81d4fa"
+		app:endIconMode="password_toggle"
+		app:boxStrokeWidth="2sp"
+		android:hint="@string/password">
+		
+		<com.google.android.material.textfield.TextInputEditText
+			android:id="@+id/teacherPassword"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_gravity="center"
+			android:background="#fff"
+			android:maxLines="1"
+			android:inputType="textPassword"
+			
+			/>
+	</com.google.android.material.textfield.TextInputLayout>
+	
+	
+	<Button
+		android:id="@+id/teacherRegDone"
+		android:layout_width="180dp"
+		android:layout_gravity="center"
+		android:layout_height="45dp"
+		android:elevation="30dp"
+		android:background="@drawable/rounded_button"
+		android:layout_marginTop="10dp"
+		android:paddingBottom="6dp"
+		android:text="@string/signUp"
+		android:textSize="15sp"
+		android:textStyle="bold" />
+	
+
+
+
+
+
+
+
+
+</LinearLayout>

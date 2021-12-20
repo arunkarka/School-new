@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sub">
+        <item>Mathematics</item>
+        <item>Physical Science</item>
+        <item>Social Studies</item>
+        <item>Telugu</item>
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Biology</item>
+    </array>
+</resources>

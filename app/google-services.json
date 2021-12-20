@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "1055189407573",
+    "firebase_url": "https://school-e83a8.firebaseio.com",
+    "project_id": "school-e83a8",
+    "storage_bucket": "school-e83a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055189407573:android:2796cb496e57439607c1dc",
+        "android_client_info": {
+          "package_name": "com.ringpi.Schoolmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055189407573-u9efhj40ae4fh8cr0bb6gcdqn4gv6373.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ringpi.Schoolmate",
+            "certificate_hash": "9a8a8bc7b5d9a3241b386180b02b165fb481888e"
+          }
+        },
+        {
+          "client_id": "1055189407573-ej3cmrt9i94j8habe75ecr3mn4ecedfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmV757uzqC5VB2QV8VMJPJj2nMYGOlvj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055189407573-ej3cmrt9i94j8habe75ecr3mn4ecedfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055189407573:android:783b3bc787ac713d07c1dc",
+        "android_client_info": {
+          "package_name": "com.ringpi.Schoolmate1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055189407573-ej3cmrt9i94j8habe75ecr3mn4ecedfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmV757uzqC5VB2QV8VMJPJj2nMYGOlvj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055189407573-ej3cmrt9i94j8habe75ecr3mn4ecedfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055189407573:android:306256f5f081cc6907c1dc",
+        "android_client_info": {
+          "package_name": "com.ringpi.project1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055189407573-ej3cmrt9i94j8habe75ecr3mn4ecedfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmV757uzqC5VB2QV8VMJPJj2nMYGOlvj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055189407573-ej3cmrt9i94j8habe75ecr3mn4ecedfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055189407573:android:a33a060757d4a76307c1dc",
+        "android_client_info": {
+          "package_name": "com.ringpi.projectschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055189407573-ej3cmrt9i94j8habe75ecr3mn4ecedfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmV757uzqC5VB2QV8VMJPJj2nMYGOlvj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055189407573-ej3cmrt9i94j8habe75ecr3mn4ecedfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
