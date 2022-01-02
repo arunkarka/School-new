@@ -14,7 +14,7 @@
 		android:contentDescription="@string/Check_in_out_Logo"
 		android:layout_width="80dp"
 		android:layout_height="80dp"
-		android:src="@drawable/baseline_done_white_48dp"
+		android:src="@drawable/baseline_cancel_white_48dp"
 		android:background="@drawable/shape_primary"
 		android:padding="10dp"
 		android:layout_marginTop="40dp"

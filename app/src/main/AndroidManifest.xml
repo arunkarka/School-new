@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ErrorActivity"
-            android:launchMode="singleTask"
+            android:launchMode="standard"
             android:screenOrientation="portrait"
             ></activity>
         <activity android:name=".ResultDisplayActivity" />
@@ -33,10 +33,10 @@
         <activity android:name=".TeachersExamZoneActivity" />
         <activity
             android:name=".ui.gallery.RegisterActivity"
-            android:launchMode="singleTask" />
+            android:launchMode="standard" />
         <activity
             android:name=".CheckOutActivity"
-            android:launchMode="singleTask"
+            android:launchMode="standard"
             android:parentActivityName=".HomeActivity"
             android:screenOrientation="portrait" />
         <activity
@@ -44,13 +44,13 @@
             android:parentActivityName=".HomeActivity" />
         <activity
             android:name=".CheckInActivity"
-            android:launchMode="singleTask"
+            android:launchMode="standard"
             android:parentActivityName=".HomeActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".LoginActivity"
-            android:launchMode="singleTask"
             android:exported="true"
+            android:launchMode="standard"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -60,13 +60,13 @@
         </activity>
         <activity
             android:name=".HMactivity"
-            android:launchMode="singleTask"
+            android:launchMode="standard"
             android:parentActivityName=".HomeActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home"
-            android:launchMode="singleTask"
+            android:launchMode="standard"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>

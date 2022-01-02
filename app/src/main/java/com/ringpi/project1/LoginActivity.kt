@@ -194,7 +194,7 @@ class LoginActivity : AppCompatActivity() {
                 val intent = Intent(this, HomeActivity::class.java)
                 startActivity(intent)
             }
-        } 
+        }
 
         val regText1 = findViewById<TextView>(R.id.signUpText)
         regText1.setOnClickListener{
@@ -206,5 +206,8 @@ class LoginActivity : AppCompatActivity() {
 
 
 
+    }
+    override fun onBackPressed() {
+        moveTaskToBack(true)
     }
 }

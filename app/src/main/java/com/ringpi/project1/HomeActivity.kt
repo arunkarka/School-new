@@ -13,6 +13,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.DocumentReference
@@ -69,43 +70,26 @@ class HomeActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id=item.itemId
-        if(id==R.id.action_checkin){
-            startActivity(Intent(this, CheckInOutActivity::class.java))
-        }
+
         if (id==R.id.action_logout){
-            val firebaseAuth=FirebaseAuth.getInstance().signOut()
-            Toast.makeText(this, "Successfully Logged out", Toast.LENGTH_LONG).show()
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
-        }
-        if (id==R.id.dummy_checkin){
-            val mFirestore: FirebaseFirestore = FirebaseFirestore.getInstance()
-            val docRef: DocumentReference =
-                mFirestore.collection("school-profiles/zphs-indira-nagar/user-info").document(detail)
-            docRef.get().addOnCompleteListener { task ->
-                if (task.isSuccessful) {
-                    val document = task.result
-                    if (document != null) {
-                        val currentclass = document.getString("current-class").toString()
-                        if (currentclass.equals("none")) {
-                            val iii = Intent(this, CheckInActivity::class.java)
-                            startActivity(iii)
 
-                        }else{
-                            val iii = Intent(this, CheckOutActivity::class.java)
-                            startActivity(iii)
-                        }
-
-                    }
-
+            MaterialAlertDialogBuilder(this)
+                .setTitle("Logout Confirmation")
+                .setMessage("Are you sure you want to Logout?")
+                .setNegativeButton("NO") { dialog, which ->
+                    // Respond to negative button press
                 }
-
-            }
-
-
-
+                .setPositiveButton("YES") { dialog, which ->
+                    // Respond to positive button press
+                    val firebaseAuth=FirebaseAuth.getInstance().signOut()
+                    Toast.makeText(this, "Successfully Logged out", Toast.LENGTH_LONG).show()
+                    val intent = Intent(this, LoginActivity::class.java)
+                    startActivity(intent)
+                }
+                .show()
 
         }
+
         if(id==R.id.action_hmview) {
             val mFirestore: FirebaseFirestore = FirebaseFirestore.getInstance()
 
